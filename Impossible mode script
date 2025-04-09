@@ -1,5 +1,5 @@
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Oof's impossible mode script successfully loaded. V1.8",true)
-wait(2)require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Welcome to my channel VoorPr0",true)
+wait(2)require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fixed by SonicTheBlueGuyFaster(unofficial)",true)
 
 --Cave ambience
 local sound = Instance.new("Sound")
@@ -59,10 +59,10 @@ end)()
 -- Hunger
 coroutine.wrap(function()
     while true do
-        wait(311)
+        wait(100)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://pastebin.com/raw/a9km8DA5"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Hunger-script/refs/heads/main/Hunger%20script"))()
 
 end
 
@@ -71,7 +71,7 @@ end)()
 --Smiler
 coroutine.wrap(function()
     while true do
-        wait(213)
+        wait(210)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
