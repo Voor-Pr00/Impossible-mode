@@ -1,5 +1,6 @@
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Oof's impossible mode script successfully loaded. V1.8",true)
-wait(2)require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fixed by SonicTheBlueGuyFaster(unofficial)",true)
+wait(2)require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fixed by SonicTheBlueGuyFaster(unofficial)",true)wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good luck",true)
 
 --Cave ambience
 local sound = Instance.new("Sound")
@@ -37,7 +38,7 @@ game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Mod
 -- Blink
 coroutine.wrap(function()
     while true do
-        wait(121)
+        wait(110)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
         loadstring(game:HttpGet("https://github.com/PABMAXICHAC/doors-monsters-scripts/raw/main/blinkcrux"))()
@@ -59,7 +60,7 @@ end)()
 -- Hunger
 coroutine.wrap(function()
     while true do
-        wait(100)
+        wait(120)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Hunger-script/refs/heads/main/Hunger%20script"))()
