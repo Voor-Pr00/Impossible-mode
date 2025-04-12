@@ -92,7 +92,7 @@ coroutine.wrap(function()
         wait(math.random(80, 160))
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/vick-png/Wh1t3-spawn/refs/heads/main/Whatt'))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Wh1t3-spawn/refs/heads/main/Whiteeeee"))()
 
 end
 
