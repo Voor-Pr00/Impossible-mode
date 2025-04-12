@@ -52,7 +52,7 @@ coroutine.wrap(function()
         wait(234)
          game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://pastebin.com/raw/uNnkcsGU"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Silence-script/refs/heads/main/Silence"))()
 
 end
     
