@@ -1,6 +1,7 @@
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Oof's impossible mode script successfully loaded. V1.8",true)
-wait(2)require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fixed by SonicTheBlueGuyFaster(unofficial)",true)wait(4)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good luck",true)
+wait(2)require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fixed by SonicTheBlueGuyFaster(unofficial)",true)wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Add more entities by Voorpr0",true)wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good luck!",true)
 
 --Cave ambience
 local sound = Instance.new("Sound")
@@ -60,7 +61,7 @@ end)()
 -- Hunger
 coroutine.wrap(function()
     while true do
-        wait(120)
+        wait(150)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Hunger-script/refs/heads/main/Hunger%20script"))()
@@ -72,7 +73,7 @@ end)()
 --Smiler
 coroutine.wrap(function()
     while true do
-        wait(210)
+        wait(220)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
@@ -108,7 +109,7 @@ end)()
 -- Nightmare Rush
 coroutine.wrap(function()
     while true do
-        wait(110)
+        wait(119)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Rush-spawn/refs/heads/main/Rush%20mode"))()
