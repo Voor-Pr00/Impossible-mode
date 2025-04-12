@@ -31,7 +31,7 @@ game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Mod
 -- Blink
 coroutine.wrap(function()
     while true do
-        wait(110)
+        wait(math.random(100, 140))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
         loadstring(game:HttpGet("https://github.com/PABMAXICHAC/doors-monsters-scripts/raw/main/blinkcrux"))()
@@ -89,7 +89,7 @@ end)()
 --WH1T3
 coroutine.wrap(function()
     while true do
-        wait(156)
+        wait(math.random(80, 160))
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/vick-png/Wh1t3-spawn/refs/heads/main/Whatt'))()
