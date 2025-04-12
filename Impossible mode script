@@ -65,7 +65,7 @@ end)()
 --Smiler
 coroutine.wrap(function()
     while true do
-        wait(220)
+        wait(math.random(200, 246))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
@@ -89,7 +89,7 @@ end)()
 --WH1T3
 coroutine.wrap(function()
     while true do
-        wait(math.random(80, 160))
+        wait(math.random(130, 160))
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Wh1t3-spawn/refs/heads/main/Whiteeeee"))()
@@ -101,7 +101,7 @@ end)()
 -- Nightmare Rush
 coroutine.wrap(function()
     while true do
-        wait(119)
+        wait(math.random(140, 180))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Rush-spawn/refs/heads/main/Rush%20mode"))()
