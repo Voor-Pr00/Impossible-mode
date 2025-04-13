@@ -59,17 +59,6 @@ end
     
 end)()
 
--- Hunger
-coroutine.wrap(function()
-    while true do
-      wait(165)
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Hunger-script/refs/heads/main/Hunger%20script"))()
-
-end
-
-end)()
 
 --Smiler
 coroutine.wrap(function()
