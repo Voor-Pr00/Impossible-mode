@@ -34,6 +34,9 @@ game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Mod
 -- common sence
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Commen-sence-/refs/heads/main/Commen%20sence"))()
 
+-- Nightmare Rush
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Rush-mod/refs/heads/main/Script"))()
+
 -- Blink
 coroutine.wrap(function()
     while true do
@@ -110,7 +113,7 @@ coroutine.wrap(function()
         wait(175)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Rush-spawn/refs/heads/main/Rush%20mode"))()
+loadstring(game:HttpGet(""))()
 
 end
 
