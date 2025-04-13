@@ -1,5 +1,5 @@
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Oof's impossible mode script successfully loaded. V1.8",true)
-wait(2)require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fixed by SonicTheBlueGuyFaster(unofficiahttps://www.google.com.vn/search?q=model+rush+door+roblox+studio&client=safari&sca_esv=382a0cfceb9c7321&channel=ipad_bm&sxsrf=AHTn8zqfJgFCYbkkfVT5Ry83CptEwSvE9A:1744518405233&ei=BT37Z7L_Dd3d1e8P_Ja8iA8&start=10&sa=N&sstk=Af40H4U408QP2QipLPPiZz5xRrPgxQtXYnxVU4YtY37Gz5_pmrd2bJ6P5lkeAxpPIRzompJbbcVK22vme2nfx6f_b7z6F8AxLySYSQ&ved=2ahUKEwjyleS-ldSMAxXdbvUHHXwLD_EQ8tMDegQIBxAE&biw=1180&bih=777&dpr=2l)",true)wait(3)
+wait(2)require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fixed by SonicTheBlueGuyFaster(unoffici)",true)wait(3)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fixed entities by Voorpr0 and NoWhyWhat",true)wait(3)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good luck!",true)
 
