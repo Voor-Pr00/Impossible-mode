@@ -31,6 +31,9 @@ game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Mod
 -- goofy spider
 game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.SpiderJumpscare.Scare.SoundId = "rbxassetid://8080941676"
 
+-- common sence
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Commen-sence-/refs/heads/main/Commen%20sence"))()
+
 -- Blink
 coroutine.wrap(function()
     while true do
@@ -112,3 +115,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Rush-spawn/r
 end
 
 end)()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Rush-spawn/refs/heads/main/Rush%20mode"))()
+
+
