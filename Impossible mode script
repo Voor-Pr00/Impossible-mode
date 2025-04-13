@@ -95,7 +95,7 @@ end)()
 --WH1T3
 coroutine.wrap(function()
     while true do
-        wait(200)
+        wait(215)
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Wh1t3-spawn/refs/heads/main/Whiteeeee"))()
