@@ -107,18 +107,6 @@ end
 
 end)()
 
--- Nightmare Rush
-coroutine.wrap(function()
-    while true do
-        wait(175)
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
-loadstring(game:HttpGet(""))()
-
-end
-
-end)()
-
 -- Eyefake
 coroutine.wrap(function()
     while true do
