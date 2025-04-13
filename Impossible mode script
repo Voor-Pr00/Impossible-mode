@@ -47,10 +47,10 @@ end)()
 -- Silence
 coroutine.wrap(function()
     while true do
-        wait(234)
+        wait(math.random(90, 200))
          game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Silence/refs/heads/main/Silence"))()"))()
 
 end
     
@@ -59,7 +59,7 @@ end)()
 -- Hunger
 coroutine.wrap(function()
     while true do
-      wait(156)
+      wait(math.random(130, 220))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Hunger-script/refs/heads/main/Hunger%20script"))()
