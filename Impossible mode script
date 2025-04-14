@@ -40,7 +40,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Rush-mod/ref
 -- Blink
 coroutine.wrap(function()
     while true do
-        wait(math.random(100, 140))
+        wait(math.random(130, 165))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
         loadstring(game:HttpGet("https://github.com/PABMAXICHAC/doors-monsters-scripts/raw/main/blinkcrux"))()
@@ -50,7 +50,7 @@ end)()
 -- Silence
 coroutine.wrap(function()
     while true do
-        wait(134)
+        wait(154)
          game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Silence/refs/heads/main/Silence"))()
@@ -63,7 +63,7 @@ end)()
 --Smiler
 coroutine.wrap(function()
     while true do
-        wait(math.random(200, 246))
+        wait(math.random(240, 265))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
@@ -87,7 +87,7 @@ end)()
 --WH1T3
 coroutine.wrap(function()
     while true do
-        wait(215)
+        wait(212)
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Wh1t3-spawn/refs/heads/main/Whiteeeee"))()
@@ -99,7 +99,7 @@ end)()
 -- Eyefake
 coroutine.wrap(function()
     while true do
-        wait(math.random(70, 100))
+        wait(math.random(89, 132))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Eye/refs/heads/main/Eyefake"))()
@@ -111,7 +111,7 @@ end)()
 -- Hunger
 coroutine.wrap(function()
     while true do
-        wait(math.random(134, 195))
+        wait(math.random(178, 195))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Hunger-new/refs/heads/main/Hunger"))()
