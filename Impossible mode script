@@ -53,7 +53,7 @@ end)()
 -- Silence
 coroutine.wrap(function()
     while true do
-        wait(1)
+        wait(158)
          game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Silence/refs/heads/main/Silence"))()
@@ -66,7 +66,7 @@ end)()
 --Smiler
 coroutine.wrap(function()
     while true do
-        wait(math.random(1, 1))
+        wait(math.random(245, 287))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
@@ -78,7 +78,7 @@ loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
 -- ???
 coroutine.wrap(function()
     while true do
-        wait(1)
+        wait(390)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet('https://pastefy.app/1xxpTxo3/raw'))()
@@ -90,7 +90,7 @@ end)()
 --WH1T3
 coroutine.wrap(function()
     while true do
-        wait(1)
+        wait(221)
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Wh1t3-spawn/refs/heads/main/Whiteeeee"))()
@@ -102,7 +102,7 @@ end)()
 -- Eyefake
 coroutine.wrap(function()
     while true do
-        wait(math.random(1, 1))
+        wait(math.random(98, 132))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Eye/refs/heads/main/Eyefake"))()
@@ -114,7 +114,7 @@ end)()
 -- Hunger
 coroutine.wrap(function()
     while true do
-        wait(math.random(1, 1))
+        wait(math.random(166, 200))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Hunger-new/refs/heads/main/Hunger"))()
