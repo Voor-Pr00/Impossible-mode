@@ -16,11 +16,8 @@ sound:Play()
 
 sound.Parent = workspace
 
---Crucifix
-loadstring(game:HttpGet("https://pastefy.app/47y6mHgC/raw"))()
-
 --Crucifix spawn
-loadstring(game:HttpGet("https://pastefy.app/ZibvmDCH/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Crucifix/refs/heads/main/Spawn"))()
 
 -- goofy screech
 game.ReplicatedStorage.Entities.Screech.Top.Eyes.Color = Color3.fromRGB(255, 0, 0)
