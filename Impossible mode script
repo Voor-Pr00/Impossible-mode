@@ -111,7 +111,7 @@ end)()
 -- Hunger
 coroutine.wrap(function()
     while true do
-        wait(math.random(166, 200))
+        wait(math.random(187, 200))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Hunger-new/refs/heads/main/Hunger"))()
