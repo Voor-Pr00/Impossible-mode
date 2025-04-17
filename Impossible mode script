@@ -66,7 +66,7 @@ coroutine.wrap(function()
         wait(math.random(245, 287))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vick-png/Smiler/refs/heads/main/Smilerr'))()
 
                end
 
