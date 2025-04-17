@@ -40,7 +40,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Rush-mod/ref
 -- Blink
 coroutine.wrap(function()
     while true do
-        wait(math.random(130, 165))
+        wait(math.random(135, 165))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
         loadstring(game:HttpGet("https://github.com/PABMAXICHAC/doors-monsters-scripts/raw/main/blinkcrux"))()
