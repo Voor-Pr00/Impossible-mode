@@ -72,18 +72,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/vick-png/Smiler/refs/
 
                end)()
 
--- ???
-coroutine.wrap(function()
-    while true do
-        wait(390)
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
-loadstring(game:HttpGet('https://pastefy.app/1xxpTxo3/raw'))()
-
-end
-
-end)()
-
 --WH1T3
 coroutine.wrap(function()
     while true do
