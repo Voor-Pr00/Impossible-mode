@@ -1,1 +1,111 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not working because this script under test",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Oof's impossible mode script successfully loaded. V1.8",true)
+wait(2)require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fixed entities by Voorpr0 and NoWhyWhat , seek00866",true)wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good luck!",true)
+
+--Cave ambience
+local sound = Instance.new("Sound")
+
+sound.SoundId = "rbxassetid://"
+
+sound.Volume = 1
+
+sound.Looped = true
+
+sound:Play()
+
+sound.Parent = workspace
+
+--Crucifix spawn
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Crucifix/refs/heads/main/Spawn"))()
+
+-- goofy screech
+game.ReplicatedStorage.Entities.Screech.Top.Eyes.Color = Color3.fromRGB(255, 0, 0)
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.SoundId = "rbxassetid://7492033495"
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.PlaybackSpeed = 1.6
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Attack.SoundId = "rbxassetid://8080941676"
+
+-- goofy hide
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.HideMonster.Scare.SoundId = "rbxassetid://9126213741"
+
+-- goofy spider
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.SpiderJumpscare.Scare.SoundId = "rbxassetid://8080941676"
+
+-- common sence
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Commen-sence-/refs/heads/main/Commen%20sence"))()
+
+-- Nightmare Rush
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Rush-mod/refs/heads/main/Script"))()
+
+-- Blink
+coroutine.wrap(function()
+    while true do
+        wait(math.random(140, 165))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet("https://github.com/PABMAXICHAC/doors-monsters-scripts/raw/main/blinkcrux"))()
+    end
+end)()
+
+-- Silence
+coroutine.wrap(function()
+    while true do
+        wait(190)
+         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Silence/refs/heads/main/Silence"))()
+
+end
+    
+end)()
+
+
+--Smiler
+coroutine.wrap(function()
+    while true do
+        wait(math.random(245, 287))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vick-png/Smiler/refs/heads/main/Smilerr'))()
+
+               end
+
+               end)()
+
+--WH1T3
+coroutine.wrap(function()
+    while true do
+        wait(221)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Wh1t3-spawn/refs/heads/main/Whiteeeee"))()
+
+end
+
+end)()
+
+-- Eyefake
+coroutine.wrap(function()
+    while true do
+        wait(math.random(98, 132))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Eye/refs/heads/main/Eyefake"))()
+
+end
+
+end)()
+
+-- Hunger
+coroutine.wrap(function()
+    while true do
+        wait(math.random(187, 200))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vick-png/Hunger-new/refs/heads/main/Hunger"))()
+
+end
+
+end)()
+
+
+
